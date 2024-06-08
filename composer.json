@@ -1,0 +1,19 @@
+{
+    "name": "kruger/mvc",
+    "description": "lightweight MVC Framework",
+    "autoload": {
+        "psr-4": {
+            "Application\\": "Application/",
+            "Models\\": "Models/",
+            "Controllers\\": "Controllers/",
+            "Migrations\\":"Migrations/"
+        }
+    },
+    "authors": [
+        {
+            "name": "isaak-kbr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
